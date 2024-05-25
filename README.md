@@ -90,3 +90,7 @@ Navigating through a hierarchical menu system.
 
 socket for network communication.
 json for processing JSON data.
+
+## Additional Concepts
+### Multithreading
+The server uses multithreading to handle multiple clients simultaneously. This allows the server to manage several connections at once without blocking.
