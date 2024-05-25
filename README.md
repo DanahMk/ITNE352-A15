@@ -8,3 +8,9 @@ This project involves the development of a multi-threaded server application tha
 
 ## Semester
 Second Semester 2023/2024
+
+## Group
+
+- Group Name: - A15
+- Course Code: ITNE352
+- Section: 1
