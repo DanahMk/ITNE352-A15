@@ -55,3 +55,14 @@ The server script retrieves news updates from NewsAPI.org and manages multiple c
 ### Client Script (client.py)
 
 The client script presents a menu system to the user, allowing them to search for news headlines or list sources. It sends requests to the server and displays the results.
+
+## Conclusion
+
+This project demonstrates the implementation of a client-server architecture for retrieving and displaying news data. It highlights the use of network communication, multithreading, and API integration in Python.
+
+## Resources
+
+### Python Documentation : [python.org](https://www.python.org/downloads/).
+
+### NewsAPI Documentation : [NewsAPI.org](https://newsapi.org/)
+
