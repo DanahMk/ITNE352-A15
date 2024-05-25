@@ -24,3 +24,14 @@ def userRequest(client_socket, request):
         print("4. List all new headlines")
         print("5. Back to the main menu")
         option = input("Select an option: ")
+
+ if option == '1':
+            keyword = input("Enter keyword: ")
+            params = {'q': keyword}
+            news_data = userRequest(client_socket, f'get_news|everything|{json.dumps(params)}')
+            printResults(news_data)
+        elif option == '2':
+            category = input("Enter category (e.g., business, entertainment, general, health, science, sports, technology): ")
+            params = {'category': category}
+            news_data = userRequest(client_socket, f'get_news|top-headlines|{json.dumps(params)}')
+            printResults(news_data)
