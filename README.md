@@ -37,3 +37,21 @@ To set up and run this project locally, follow these steps:
 1. **Clone the repository**
 2. **Create a virtual environment**
 3. **Activate the virtual environment**
+
+## How to Run
+
+### Start the Server: `python server.py`
+
+### Run the Client: `python client.py `
+
+Now, Enter your name when prompted and navigate through the menu options to search for news headlines or list sources.
+
+## Scripts
+
+### Server Script (server.py)
+
+The server script retrieves news updates from NewsAPI.org and manages multiple client connections using multithreading. It handles different types of requests and sends the appropriate responses to the clients.
+
+### Client Script (client.py)
+
+The client script presents a menu system to the user, allowing them to search for news headlines or list sources. It sends requests to the server and displays the results.
