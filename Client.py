@@ -47,3 +47,14 @@ def userRequest(client_socket, request):
             break
         else:
             print("Invalid input. Please enter again.")
+
+def fetchSources(client_socket):
+    while True:
+        print("List of sources menu:")
+        print("1. Search by category")
+        print("2. Search by country")
+        print("3. Search by language")
+        print("4. List all")
+        print("5. Back to the main menu")
+        option = input("Select an option: ")
+
