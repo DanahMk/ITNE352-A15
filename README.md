@@ -23,6 +23,16 @@ Second Semester 2023/2024
   2. 202101300
   3. 202106695
 
+## Table of Contents
+
+1. [Requirements](#requirements)
+2. [How to Run](#how-to-run)
+3. [The Scripts](#the-scripts)
+4. [Additional Concepts](#additional-concepts)
+5. [Acknowledgments](#acknowledgments)
+6. [Conclusion](#conclusion)
+7. [Resources](#resources)
+
 ## Requirements
 
 To set up and run this project locally, follow these steps:
@@ -81,6 +91,14 @@ Navigating through a hierarchical menu system.
 socket for network communication.
 json for processing JSON data.
 
+## Additional Concepts
+### Multithreading
+The server uses multithreading to handle multiple clients simultaneously. This allows the server to manage several connections at once without blocking.
+
+## Acknowledgments
+
+Special thanks to our professor Dr. Mohammed Almeer for providing guidance and resources for this project.
+Thanks to NewsAPI for providing the news data used in this project.
 
 ## Conclusion
 
