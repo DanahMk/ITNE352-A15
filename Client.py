@@ -96,3 +96,17 @@ def printResults(news_data):
     else:
         print('Failed to fetch news.')
 
+def printSources(sources_data):
+    if sources_data['status'] == 'ok':
+        for i, source in enumerate(sources_data['sources']):
+            print(f"{i+1}. {source['name']} ({source['country']})")
+    else:
+        print('Failed to fetch sources.')
+
+if __name__ == '__main__':
+    client_name = input("Enter your name: ")
+    client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+    client_socket.connect((HOST, PORT))
+    client_socket.send(client_name.encode('utf-8'))
+    
+
