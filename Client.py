@@ -15,3 +15,12 @@ def userRequest(client_socket, request):
         response_data += part
 
     return json.loads(response_data.decode('utf-8'))
+    def fetchHeadlines(client_socket):
+    while True:
+        print("Search headlines menu:")
+        print("1. Search for keywords")
+        print("2. Search by category")
+        print("3. Search by country")
+        print("4. List all new headlines")
+        print("5. Back to the main menu")
+        option = input("Select an option: ")
