@@ -108,5 +108,22 @@ if __name__ == '__main__':
     client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     client_socket.connect((HOST, PORT))
     client_socket.send(client_name.encode('utf-8'))
+
+    while True:
+        print("Main menu:")
+        print("1. Search headlines")
+        print("2. List of sources")
+        print("3. Quit")
+        option = input("Select an option: ")
+
+        if option == '1':
+            fetchHeadlines(client_socket)
+        elif option == '2':
+            fetchSources(client_socket)
+        elif option == '3':
+            break
+        else:
+            print("Invalid input. Please enter again.")
     
+    client_socket.close()
 
