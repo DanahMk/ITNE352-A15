@@ -75,3 +75,7 @@ socket for network communication.
 threading for handling multiple clients.
 requests for fetching news from NewsAPI.
 json for processing JSON data.
+
+### Client Script (client.py)
+
+The client script presents a menu system to the user, allowing them to search for news headlines or list sources. It sends requests to the server and displays the results.
