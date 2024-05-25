@@ -63,4 +63,15 @@ def fetchSources(client_socket):
             params = {'category': category}
             sources_data = userRequest(client_socket, f'get_news|sources|{json.dumps(params)}')
             printSources(sources_data)
+             
+        elif option == '2':
+            country = input("Enter country code (e.g., au, nz, ca, ae, sa, gb, us, eg, ma): ")
+            params = {'country': country}
+            sources_data = userRequest(client_socket, f'get_news|sources|{json.dumps(params)}')
+            printSources(sources_data)
+        elif option == '3':
+            language = input("Enter language code (e.g., ar, en): ")
+            params = {'language': language}
+            sources_data = userRequest(client_socket, f'get_news|sources|{json.dumps(params)}')
+            printSources(sources_data)
 
