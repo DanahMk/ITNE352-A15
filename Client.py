@@ -74,4 +74,11 @@ def fetchSources(client_socket):
             params = {'language': language}
             sources_data = userRequest(client_socket, f'get_news|sources|{json.dumps(params)}')
             printSources(sources_data)
+        elif option == '4':
+            sources_data = userRequest(client_socket, 'get_news|sources|{}')
+            printSources(sources_data)
+        elif option == '5':
+            break
+        else:
+            print("Invalid input. Please enter again.")
 
