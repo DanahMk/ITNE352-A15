@@ -24,3 +24,11 @@ Second Semester 2023/2024
   3. 202106695
 
 ## Table of Contents
+
+1. [Requirements](#requirements)
+2. [How to Run](#how-to-run)
+3. [The Scripts](#the-scripts)
+4. [Additional Concepts](#additional-concepts)
+5. [Acknowledgments](#acknowledgments)
+6. [Conclusion](#conclusion)
+7. [Resources](#resources)
