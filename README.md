@@ -47,3 +47,11 @@ To set up and run this project locally, follow these steps:
 1. **Clone the repository**
 2. **Create a virtual environment**
 3. **Activate the virtual environment**
+
+## How to Run
+
+### Start the Server: `python server.py`
+
+### Run the Client: `python client.py `
+
+Now, Enter your name when prompted and navigate through the menu options to search for news headlines or list sources.
