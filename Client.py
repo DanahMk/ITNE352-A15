@@ -35,3 +35,15 @@ def userRequest(client_socket, request):
             params = {'category': category}
             news_data = userRequest(client_socket, f'get_news|top-headlines|{json.dumps(params)}')
             printResults(news_data)
+ elif option == '3':
+            country = input("Enter country code (e.g., us, in): ")
+            params = {'country': country}
+            news_data = userRequest(client_socket, f'get_news|top-headlines|{json.dumps(params)}')
+            printResults(news_data)
+        elif option == '4':
+            news_data = userRequest(client_socket, 'get_news|top-headlines|{}')
+            printResults(news_data)
+        elif option == '5':
+            break
+        else:
+            print("Invalid input. Please enter again.")
