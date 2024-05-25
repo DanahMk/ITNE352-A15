@@ -68,3 +68,10 @@ Fetching news from NewsAPI based on different endpoints and parameters.
 Handling multiple simultaneous client connections.
 Sending JSON responses to clients.
 Logging client connections and requests.
+
+#### Utilized Packages:
+
+socket for network communication.
+threading for handling multiple clients.
+requests for fetching news from NewsAPI.
+json for processing JSON data.
