@@ -61,3 +61,10 @@ Now, Enter your name when prompted and navigate through the menu options to sear
 ### Server Script (server.py)
 
 The server script retrieves news updates from NewsAPI.org and manages multiple client connections using multithreading. It handles different types of requests and sends the appropriate responses to the clients.
+
+#### Main Functionalities:
+
+Fetching news from NewsAPI based on different endpoints and parameters.
+Handling multiple simultaneous client connections.
+Sending JSON responses to clients.
+Logging client connections and requests.
