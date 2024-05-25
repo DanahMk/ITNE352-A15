@@ -94,3 +94,8 @@ json for processing JSON data.
 ## Additional Concepts
 ### Multithreading
 The server uses multithreading to handle multiple clients simultaneously. This allows the server to manage several connections at once without blocking.
+
+## Acknowledgments
+
+Special thanks to our professor Dr. Mohammed Almeer for providing guidance and resources for this project.
+Thanks to NewsAPI for providing the news data used in this project.
