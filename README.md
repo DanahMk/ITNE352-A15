@@ -32,3 +32,12 @@ Second Semester 2023/2024
 5. [Acknowledgments](#acknowledgments)
 6. [Conclusion](#conclusion)
 7. [Resources](#resources)
+
+## Requirements
+
+To set up and run this project locally, follow these steps:
+
+### Prerequisites
+
+- **Python**: Ensure Python is installed on your system. You can download it from [python.org](https://www.python.org/downloads/).
+- **NewsAPI Key**: Sign up on [NewsAPI.org](https://newsapi.org/) to get your API key.
