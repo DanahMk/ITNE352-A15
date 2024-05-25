@@ -41,3 +41,9 @@ To set up and run this project locally, follow these steps:
 
 - **Python**: Ensure Python is installed on your system. You can download it from [python.org](https://www.python.org/downloads/).
 - **NewsAPI Key**: Sign up on [NewsAPI.org](https://newsapi.org/) to get your API key.
+
+### Setup
+
+1. **Clone the repository**
+2. **Create a virtual environment**
+3. **Activate the virtual environment**
