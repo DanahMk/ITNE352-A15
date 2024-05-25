@@ -99,3 +99,7 @@ The server uses multithreading to handle multiple clients simultaneously. This a
 
 Special thanks to our professor Dr. Mohammed Almeer for providing guidance and resources for this project.
 Thanks to NewsAPI for providing the news data used in this project.
+
+## Conclusion
+
+This project demonstrates the implementation of a client-server architecture for retrieving and displaying news data. It highlights the use of network communication, multithreading, and API integration in Python.
