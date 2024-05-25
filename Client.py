@@ -3,4 +3,15 @@ import json
 
 HOST = '127.0.0.1'
 PORT = 65432
+def userRequest(client_socket, request):
+    client_socket.send(request.encode('utf-8'))
+    response_length_str = client_socket.recv(10).decode('utf-8').strip()
+    print(f"Received response length string: '{response_length_str}'")
+    response_length = int(response_length_str)
+    print(f"Received response length: {response_length}")
+    response_data = b""
+    while len(response_data) < response_length:
+        part = client_socket.recv(response_length - len(response_data))
+        response_data += part
 
+    return json.loads(response_data.decode('utf-8'))
