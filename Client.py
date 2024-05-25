@@ -58,7 +58,7 @@ def fetchSources(client_socket):
         print("5. Back to the main menu")
         option = input("Select an option: ")
         
-     if option == '1':
+        if option == '1':
             category = input("Enter category (e.g., business, entertainment, general, health, science, sports, technology): ")
             params = {'category': category}
             sources_data = userRequest(client_socket, f'get_news|sources|{json.dumps(params)}')
