@@ -79,3 +79,9 @@ json for processing JSON data.
 ### Client Script (client.py)
 
 The client script presents a menu system to the user, allowing them to search for news headlines or list sources. It sends requests to the server and displays the results.
+
+#### Main Functionalities:
+
+Sending requests to the server based on user input.
+Displaying news headlines and sources.
+Navigating through a hierarchical menu system.
