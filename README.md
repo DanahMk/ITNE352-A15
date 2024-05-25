@@ -52,9 +52,35 @@ Now, Enter your name when prompted and navigate through the menu options to sear
 
 The server script retrieves news updates from NewsAPI.org and manages multiple client connections using multithreading. It handles different types of requests and sends the appropriate responses to the clients.
 
+#### Main Functionalities:
+
+Fetching news from NewsAPI based on different endpoints and parameters.
+Handling multiple simultaneous client connections.
+Sending JSON responses to clients.
+Logging client connections and requests.
+
+#### Utilized Packages:
+
+socket for network communication.
+threading for handling multiple clients.
+requests for fetching news from NewsAPI.
+json for processing JSON data
+
 ### Client Script (client.py)
 
 The client script presents a menu system to the user, allowing them to search for news headlines or list sources. It sends requests to the server and displays the results.
+
+#### Main Functionalities:
+
+Sending requests to the server based on user input.
+Displaying news headlines and sources.
+Navigating through a hierarchical menu system.
+
+#### Utilized Packages:
+
+socket for network communication.
+json for processing JSON data.
+
 
 ## Conclusion
 
