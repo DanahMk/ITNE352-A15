@@ -85,3 +85,8 @@ The client script presents a menu system to the user, allowing them to search fo
 Sending requests to the server based on user input.
 Displaying news headlines and sources.
 Navigating through a hierarchical menu system.
+
+#### Utilized Packages:
+
+socket for network communication.
+json for processing JSON data.
