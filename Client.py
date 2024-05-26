@@ -44,7 +44,7 @@ def userRequest(client_socket, request):
             news_data = userRequest(client_socket, 'get_news|top-headlines|{}')
             printResults(news_data)
       elif option == '5':
-         break
+        break
       else:
             print("Invalid input. Please enter again.")
 
