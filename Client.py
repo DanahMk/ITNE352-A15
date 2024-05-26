@@ -15,8 +15,9 @@ def userRequest(client_socket, request):
         response_data += part
 
     return json.loads(response_data.decode('utf-8'))
-    def fetchHeadlines(client_socket):
-      while True:
+
+ def fetchHeadlines(client_socket):
+    while True:
         print("Search headlines menu:")
         print("1. Search for keywords")
         print("2. Search by category")
@@ -25,27 +26,27 @@ def userRequest(client_socket, request):
         print("5. Back to the main menu")
         option = input("Select an option: ")
 
-      if option == '1':
+        if option == '1':
             keyword = input("Enter keyword: ")
             params = {'q': keyword}
             news_data = userRequest(client_socket, f'get_news|everything|{json.dumps(params)}')
             printResults(news_data)
-      elif option == '2':
+        elif option == '2':
             category = input("Enter category (e.g., business, entertainment, general, health, science, sports, technology): ")
             params = {'category': category}
             news_data = userRequest(client_socket, f'get_news|top-headlines|{json.dumps(params)}')
             printResults(news_data)
-      elif option == '3':
+        elif option == '3':
             country = input("Enter country code (e.g., us, in): ")
             params = {'country': country}
             news_data = userRequest(client_socket, f'get_news|top-headlines|{json.dumps(params)}')
             printResults(news_data)
-      elif option == '4':
+        elif option == '4':
             news_data = userRequest(client_socket, 'get_news|top-headlines|{}')
             printResults(news_data)
-      elif option == '5':
+        elif option == '5':
             break
-      else:
+        else:
             print("Invalid input. Please enter again.")
 
 def fetchSources(client_socket):
