@@ -3,6 +3,7 @@ import json
 
 HOST = '127.0.0.1'
 PORT = 65432
+
 def userRequest(client_socket, request):
     client_socket.send(request.encode('utf-8'))
     response_length_str = client_socket.recv(10).decode('utf-8').strip()
@@ -16,7 +17,7 @@ def userRequest(client_socket, request):
 
     return json.loads(response_data.decode('utf-8'))
 
- def fetchHeadlines(client_socket):
+def fetchHeadlines(client_socket):
     while True:
         print("Search headlines menu:")
         print("1. Search for keywords")
