@@ -104,9 +104,11 @@ Special thanks to our professor Dr. Mohammed Almeer for providing guidance and r
 
 Thanks to NewsAPI for providing the news data used in this project.
 
+Thanks to Python.org for teaching us the additional information that was needed.
+
 ## Conclusion
 
-This project demonstrates the implementation of a client-server architecture for retrieving and displaying news data. It highlights the use of network communication, multithreading, and API integration in Python.
+This project demonstrates the implementation of a client-server architecture for retrieving and displaying news data. It highlights the use of network communication, multithreading, GUI, and API integration in Python.
 
 ## Resources
 
