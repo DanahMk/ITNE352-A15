@@ -122,6 +122,10 @@ def getName():
     client_name = simpledialog.askstring("Client Name", "Enter your name:")
     root.destroy()
     return client_name
+
+if __name__ == '__main__':
+    client_name = getName()
+    client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     while True:
         print("Main menu:")
         print("1. Search headlines")
