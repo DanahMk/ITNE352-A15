@@ -101,6 +101,7 @@ The client Can Input their name in a dialog.
 ## Acknowledgments
 
 Special thanks to our professor Dr. Mohammed Almeer for providing guidance and resources for this project.
+
 Thanks to NewsAPI for providing the news data used in this project.
 
 ## Conclusion
