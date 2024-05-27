@@ -120,7 +120,7 @@ def getName():
     root = tink.Tk()
     root.withdraw() 
     client_name = simpledialog.askstring("Client Name", "Enter your name:")
-    
+    root.destroy()
     while True:
         print("Main menu:")
         print("1. Search headlines")
