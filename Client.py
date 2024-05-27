@@ -128,6 +128,7 @@ if __name__ == '__main__':
     client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     client_socket.connect((HOST, PORT))
     client_socket.send(client_name.encode('utf-8'))
+
     while True:
         print("Main menu:")
         print("1. Search headlines")
