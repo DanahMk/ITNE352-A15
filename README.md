@@ -110,3 +110,5 @@ This project demonstrates the implementation of a client-server architecture for
 
 ### NewsAPI Documentation : [NewsAPI.org](https://newsapi.org/)
 
+### Python Documentation for GUI : [docs.python.org](https://docs.python.org/3/library/tkinter.html)
+
