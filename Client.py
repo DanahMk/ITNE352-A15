@@ -1,6 +1,7 @@
 import socket
 import json
 import tkinter as tink
+from tkinter import simpledialog
 HOST = '127.0.0.1'
 PORT = 65432
 
