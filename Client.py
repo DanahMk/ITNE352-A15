@@ -118,6 +118,9 @@ def printSources(sources_data):
 
 def getName():
     root = tink.Tk()
+    root.withdraw() 
+    client_name = simpledialog.askstring("Client Name", "Enter your name:")
+    
     while True:
         print("Main menu:")
         print("1. Search headlines")
