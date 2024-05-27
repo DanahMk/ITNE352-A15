@@ -116,7 +116,7 @@ def printSources(sources_data):
     else:
         print('Failed to fetch sources.')
 
-
+def getName():
 
     while True:
         print("Main menu:")
