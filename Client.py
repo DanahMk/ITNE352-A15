@@ -117,7 +117,7 @@ def printSources(sources_data):
         print('Failed to fetch sources.')
 
 def getName():
-
+    root = tink.Tk()
     while True:
         print("Main menu:")
         print("1. Search headlines")
