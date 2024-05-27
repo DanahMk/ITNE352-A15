@@ -121,6 +121,7 @@ def getName():
     root.withdraw() 
     client_name = simpledialog.askstring("Client Name", "Enter your name:")
     root.destroy()
+    return client_name
     while True:
         print("Main menu:")
         print("1. Search headlines")
