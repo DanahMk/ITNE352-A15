@@ -95,7 +95,7 @@ json for processing JSON data.
 ### Multithreading
 The server uses multithreading to handle multiple clients simultaneously. This allows the server to manage several connections at once without blocking.
 ### GUI
-the client Can Input their name in a dialog.
+The client Can Input their name in a dialog.
 
 ## Acknowledgments
 
