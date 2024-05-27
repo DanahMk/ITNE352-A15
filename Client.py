@@ -1,6 +1,6 @@
 import socket
 import json
-
+import tkinter as tink
 HOST = '127.0.0.1'
 PORT = 65432
 
