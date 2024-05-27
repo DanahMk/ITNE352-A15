@@ -112,3 +112,5 @@ This project demonstrates the implementation of a client-server architecture for
 
 ### Python Documentation for GUI : [docs.python.org](https://docs.python.org/3/library/tkinter.html)
 
+### SimpleDialog Documentation : [docs.python.org](https://docs.python.org/3/library/dialog.html#module-tkinter.simpledialog)
+
