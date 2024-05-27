@@ -74,7 +74,7 @@ Logging client connections and requests.
 socket for network communication.
 threading for handling multiple clients.
 requests for fetching news from NewsAPI.
-json for processing JSON data
+json for processing JSON data.
 
 ### Client Script (client.py)
 
