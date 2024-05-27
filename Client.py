@@ -101,6 +101,16 @@ def printSources(sources_data):
     if sources_data['status'] == 'ok':
         for i, source in enumerate(sources_data['sources']):
             print(f"{i+1}. {source['name']} ({source['country']})")
+        choice = int(input("Select a source number for details, or 0 to return: "))
+        if 1 <= choice <= len(sources_data['sources']):
+            source = sources_data['sources'][choice - 1]
+            print(f"Source Name: {source['name']}")
+            print(f"Description: {source.get('description', 'No description available.')}")
+            print(f"URL: {source.get('url', 'No URL available.')}")
+        elif choice == 0:
+            return
+        else:
+            print("Invalid choice. Returning to the menu.")
     else:
         print('Failed to fetch sources.')
 
@@ -127,4 +137,3 @@ if __name__ == '__main__':
             print("Invalid input. Please enter again.")
     
     client_socket.close()
-
